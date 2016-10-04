@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url("chrome-extension://__MSG_@@extension_id__/assets/fonts/tahoma.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url("chrome-extension://__MSG_@@extension_id__/assets/fonts/ProximaNova-SboldWeb.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'ProximaNovaReg';
+  src: url("chrome-extension://__MSG_@@extension_id__/assets/fonts/ProximaNova-RegWeb.woff") format('woff');
+}
+
+.black-overlap{
+  background: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.sidebar {
+  -webkit-filter: blur(5px);
+}
+
+.login_widget {
+  background: white;
+  width: 284px;
+  height: 364px;
+  top: 50%;
+  position: absolute;
+  margin-top: -182px;
+  left: 50%;
+  margin-left: -142px;
+  border-radius: 4px;
+}
+
+.bottom_loginwidget {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.bottom_loginwidget a{
+  color :#1294fa;
+  font-family: 'Tahoma';
+  font-size: 14px;
+  letter-spacing: 0.27px;
+}
+
+.login_button {
+  width: 204px;
+  height: 38px;
+  background: #df0074;
+  border: 1px solid rgb(171,0,88);
+  color: white;
+  border-radius: 2px;
+  font-family: 'Tahoma';
+  font-size: 13.33px;
+  letter-spacing: 0.27px;
+}
+
+.logo {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/favicon.png");
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-top: 32px;
+  margin-left: -120px;
+}
+
+.logo_title{
+  color: #df0074;
+  font-size: 27px;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: -20px;
+  font-family: 'ProximaNovaSemiBold';
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forgot_password {
+  color: rgb(46,154,229);
+  font-size: 13.33px;
+  font-family: 'Tahoma';
+  letter-spacing: 0.27px;
+}
+.alert-danger{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  display: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.arrow-bottom {
+  cursor: pointer;
+}
+
+.signout {
+  box-shadow: 0px 0px 10px 1px #888888;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  z-index: 2;
+  background: white;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 4px;
+  right: 17px;
+  top: 50px;
+  display: none;
+}
+
+.googleInput {
+  width: 665px;
+  padding: 10px !important;
+  border: 1px solid #CCC;
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+.googleButton {
+	padding: 9px 10px 10px 10px;
+  display: inline-block;
+  border: 1px solid #CCC;
+  color: #444;
+  background: #DDD;
+  line-height: 20px;
+}
+
+.current_date {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'ProximaNovaSemiBold';
+  font-size: 16px;
+  color: rgb(85,85,85);
+}
+
+.earning_container {
+  text-align: left;
+  border-bottom: 1px solid rgb(204,204,240);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 274px;
+}
+
+.icons {
+  width:40px;
+  height: 40px;
+}
+
+.caption {
+  margin-left: 14px;
+  margin-top: 13px;
+  font-size: 14px;
+  float: left;
+  font-family: 'ProximaNovaReg', sans-serif;
+  font-weight: bold;
+  height: 18px;
+  line-height: 18px;
+  max-width: 225px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.price {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(116,195,26);
+  float: right;
+  font-family: 'ProximaNovaReg';
+}
+
+.talk_icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/ext_talk.png");
+  margin-left: 10px;
+  float: left;
+}
+
+.adme_icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/ext_adme.png");
+  margin-left: 10px;
+  float: left;
+}
+
+.games_icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/ext_games.png");
+  margin-left: 10px;
+  float: left;
+}
+
+.lock_icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/ext_lock.png");
+  margin-left: 10px;
+  float: left;
+}
+
+.web_icon {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/ext_web.png");
+  margin-left: 10px;
+  float: left;
+}
+
+.total_price_container {
+  background: rgba(223,226,230,1);
+  border-radius: 4px;
+  padding: 11px 10px;
+  height: 42px;
+}
+
+.total_caption {
+  float: left;
+  font-size: 16px;
+  color: #333333;
+  font-family: 'ProximaNovaSemiBold'
+}
+
+.wow_logo {
+  background: url("chrome-extension://__MSG_@@extension_id__/assets/img/favicon.png");
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+
+  /*background: url("chrome-extension://mjehboboahpkaibehcfpkdacoknnccln/assets/img/favicon.png");
+  width: 64px;
+  height: 64px;
+  position: relative;
+  left: 20px;
+  display: block;
+  float: left;
+  margin-top: 205px;*/
+}
+.price_icon {
+  background: url("https://www.wowapp.com/images/wowcoins-symbol.png");
+  float: right;
+  margin-right: 10px;
+  width: 15px;
+  height: 9px;
+  background-size: 15px 9px;
+  margin-top: 5px;
+  margin-left: 121px;
+}
+
+.total_price {
+  float: right;
+  font-size: 16px;
+  color: #333333;
+  font-family: 'ProximaNovaSemiBold';
+}
+
+.hint {
+  margin-left: 10px;
+  font-size: 13.33px;
+  color: #7b8994;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 0;
+  font-family: 'ProximaNovaSemiBold';
+}
+
+.attention {
+  font-family: 'Tahoma';
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.27px;
+  width: 146px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.attention .header{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.wow_link {
+  position: fixed;
+  bottom: 63px;
+  left: 20px;
+  color: #1394fa;
+  margin-left: 69px;
+  font-family: 'Tahoma';
+  font-size: 14px;
+  letter-spacing: 0.27px;
+
+  /*position: relative;
+  left: 25px;
+  color: #1394fa;
+  font-family: 'Tahoma';
+  font-size: 14px;
+  letter-spacing: 0.27px;
+  margin-top: 230px;
+  float: left;*/
+}
+
+.wow_link:visited {
+  color: #1394fa;
+}
+
+.number {
+  font-weight: bolder;
+}
